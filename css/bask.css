@@ -1,0 +1,85 @@
+.gridArea {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: "buttonList imgList";
+  text-align: center;
+}
+
+.buttonList {
+  grid-area: buttonList;
+ }
+
+#imgList {
+  grid-area: imgList;
+}
+
+
+.headerClass {
+    text-align: center;
+    font-family:Georgia;
+    font: size 20px;
+    font-weight: bold;
+    color: purple; 
+    background-color: rgb(195, 236, 247);  
+    height: 52px;
+  }
+
+.content{
+  text-align: center;
+}
+
+.footerClass {
+  text-align: center;
+  font-weight: bold;
+  color: purple;
+  background-color: rgb(195, 236, 247); 
+  height: 60px;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {margin: 0; padding: 0;}
+
+li {
+  
+  background:rgb(211, 209, 209); 
+  text-align: center; 
+  font-weight: bold;
+  padding: 24px;
+  margin: 0px 0px 1px 10px;
+  list-style-type: none; 
+  border-radius: 10px;
+  box-shadow: 6px 5px rgba(221, 128, 159, .5);
+  width: 141px;
+  }
+
+
+.imgList li {
+  border:none;
+  padding:0px;
+  background:none;
+  box-shadow: none;  
+}
+img{
+width: 85px;
+border:5px solid rgba(221, 128, 159, 0.5);
+border-radius: 20px;
+}
+hr {
+  border: 1px solid purple;
+  margin-bottom: -10px;  
+}
+#foot {
+  margin-top: -9px;
+  border-color: rgb(195, 236, 247);
+}
+
+#top{
+      border-color: rgb(195, 236, 247);
+}
+
+
